@@ -1,22 +1,23 @@
-<div class="container__small-cards">
+<div class="container__small-card">
 
   <div class="container__small-card-content">
     <div class="small-card__photo">
-    <img
-     src="{{photoSmallCard}}"
-      alt=""
-      height="200px"
+      <img
+        src="{{ photoCover }}"
+        alt=""
+        srcset=""
+      >
+    </div>
 
-       srcset="">
-
+    <div class="small-card__title">
+      <h1><a [routerLink]="['content', Id]" >{{ cardTitle }}</a></h1>
+    </div>
   </div>
-  <div class="small-card__name">
-     <h1><a href="#"> {{contentSmallCard}}</a></h1>
 
-  </div>
-  <div class=".container__small-card__separator">
+  <div class="container__small-card__separator">
     <hr>
   </div>
+
 </div>
 
 

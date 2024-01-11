@@ -1,29 +1,25 @@
-.container__small-cards {
+.container__small-card{
   width: 700px;
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.container__small-card-content {
-  border: solid white;
+.container__small-card-content{
   display: flex;
   flex-direction: row;
 }
 
-small-card__photo > img {
-
-width: 200px;
-min-width: 200px;
-margin-right: 20px;
+.small-card__photo > img {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
 }
 
-.small-card__name {
-
+.small-card__title {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container__small-card__separator {
-
+.container__small-card__separator{
   margin-top: 10px;
 }
