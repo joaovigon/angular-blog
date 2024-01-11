@@ -4,7 +4,7 @@
 }
 
 .container__small-card-content {
-
+  border: solid white;
   display: flex;
   flex-direction: row;
 }
